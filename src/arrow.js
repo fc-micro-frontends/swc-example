@@ -1,3 +1,6 @@
 export const test = () => {
-  console.log("hello");
+  const hello = "world";
+  const world = "unused";
+
+  console.log(hello, "test");
 };

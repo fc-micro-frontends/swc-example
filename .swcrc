@@ -6,5 +6,11 @@
   "env": {
     "targets": "last 100 Chrome versions"
   },
-  "minify": true
+  "minify": true,
+  "jsc": {
+    "minify": {
+      "compress": true,
+      "mangle": true
+    }
+  }
 }
